@@ -1,0 +1,9 @@
+@GioStartapp_HostAddress = http://localhost:5032
+
+GET {{GioStartapp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+GET {{GioStartapp_HostAddress}}/test/
+Accept: application/json
+###
